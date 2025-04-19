@@ -14,7 +14,7 @@ int main()
     int found = -1;
     for (int i = 0; i < n; i++)
     {
-        if (arr[i] == x)
+        if (x == arr[i])
         {
             found = i;
             break;
